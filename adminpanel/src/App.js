@@ -1,11 +1,15 @@
-import Input from "./Component/input";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
+import LogIn from "./Component/login/login";
 
 
 function App() {
   return (
-    <div className="App">
-     <Input/>
-    </div>
+    
+    <BrowserRouter>
+      <Switch>
+      <Route path='/' exact  component={LogIn}/>
+    </Switch>
+    </BrowserRouter>
   );
 }
 

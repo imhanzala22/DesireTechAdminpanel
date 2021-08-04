@@ -1,0 +1,11 @@
+.login {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoimg {
+  width: 350px;
+  height: 350px;
+}
