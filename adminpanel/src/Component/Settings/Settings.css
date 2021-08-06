@@ -1,0 +1,22 @@
+.Parent_settings {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings_inputs_password {
+  width: 40%;
+  margin-left: 5%;
+}
+.settings_inputs_email {
+  width: 40%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+.setting_head1 {
+  text-align: center;
+  margin: 30px;
+  margin-top: 40px;
+}
