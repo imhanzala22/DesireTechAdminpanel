@@ -1,0 +1,35 @@
+.prod_head1 {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.main_Product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_inputs {
+  display: flex;
+  flex-direction: column;
+  flex: 30%;
+}
+.first_log {
+  display: flex;
+  flex: 50%;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.right_inputs {
+  display: flex;
+  flex-direction: column;
+  flex: 30%;
+  margin-left: 300px;
+  margin-right: 20px;
+}
+
+.right_inputs input {
+  width: 200px;
+}
