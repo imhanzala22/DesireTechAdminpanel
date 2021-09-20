@@ -1,11 +1,12 @@
 .loginbox {
   height: 500px;
-  width: 80%;
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
+  background: blue;
 }
 .loginbox {
   margin: auto;
@@ -19,6 +20,7 @@
   top: -10%;
   margin: auto;
   align-items: center;
+  background: brown;
 }
 
 .login_input_setting {

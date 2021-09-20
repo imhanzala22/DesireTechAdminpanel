@@ -23,9 +23,7 @@ const LogIn = () => {
     return ( 
         <div className='container '>
             <div className='loginbox'>
-                <div className='logoimg'>
                 <img className='logoimg' src={img1} alt="Will be provided soon" />
-                </div>
                 <div className='login_input_setting'>
                 <>
             <h1>Admin Login</h1>

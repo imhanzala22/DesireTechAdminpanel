@@ -1,5 +1,6 @@
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Feedback from "./Component/feedback/feedback";
+import Header from "./Component/header/header";
 import Home from "./Component/home/home";
 import LogIn from "./Component/login/login";
 import Product from "./Component/newproduct/product";
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         
       <Route path='/Home' exact  component={Home}/>
+      <Route path='/Header' exact  component={Header}/>
       <Route path='/feedback' exact  component={Feedback}/>
       <Route path='/Settings' exact  component={Setting}/>      
       <Route path='/product' exact  component={Product}/>      
